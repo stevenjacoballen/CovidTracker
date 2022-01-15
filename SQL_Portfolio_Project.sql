@@ -4,8 +4,8 @@ Skills used: Joins, CTE's, Windows Functions, Aggregate Functions, Creating View
 Tableau Dashboard: https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2
 */
 
--- Fields containing "new" in their name (ie - new_cases) refer to daily counts.
--- Fields containing "total" in their name (ie - total cases) refer to total counts.
+-- Fields containing "new" in their name (ie - new_cases) refer to daily counts, but are summed by Month in the dashboard.
+-- Fields containing "total" in their name (ie - total cases) refer to total counts (since day 1).
 
 -- New Cases vs Total Cases
 DROP VIEW IF EXISTS new_cases_vs_total_cases 
