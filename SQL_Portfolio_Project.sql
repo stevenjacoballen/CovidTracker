@@ -2,6 +2,9 @@
 Covid 19 Data Exploration 
 Skills used: Joins, CTE's, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 Tableau Dashboard: https://public.tableau.com/app/profile/steven.allen/viz/COVID_Tracker/Dashboard2
+
+Data Source: https://ourworldindata.org/covid-deaths 
+The dataset was split into two .csv files and then imported Microsoft SQL Server Management Studio as two separate tables for querying. 
 */
 
 -- Fields containing "new" in their name (ie - new_cases) refer to daily counts, but are summed by Month in the dashboard.
